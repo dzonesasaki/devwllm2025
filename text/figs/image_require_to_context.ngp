@@ -1,0 +1,294 @@
+#!ngraph
+#%creator: Ngraph for Windows
+#%version: 6.03
+new line
+	line::hidden=false
+	line::R=0
+	line::G=0
+	line::B=0
+	line::clip=true
+	line::redraw_flag=true
+	line::points='2800 18800 14600 18800'
+	line::width=40
+	line::style=
+	line::join=miter
+	line::miter_limit=1000
+	line::arrow=end
+	line::arrow_length=72426
+	line::arrow_width=60000
+
+new line
+	line::hidden=false
+	line::R=0
+	line::G=0
+	line::B=0
+	line::clip=true
+	line::redraw_flag=true
+	line::points='3000 19000 3000 9400'
+	line::width=40
+	line::style=
+	line::join=miter
+	line::miter_limit=1000
+	line::arrow=end
+	line::arrow_length=72426
+	line::arrow_width=60000
+
+new line
+	line::hidden=false
+	line::R=0
+	line::G=0
+	line::B=0
+	line::clip=true
+	line::redraw_flag=true
+	line::points='11000 14200 11000 19000'
+	line::width=40
+	line::style='150 150'
+	line::join=miter
+	line::miter_limit=1000
+	line::arrow=none
+	line::arrow_length=72426
+	line::arrow_width=60000
+
+new line
+	line::hidden=false
+	line::R=0
+	line::G=0
+	line::B=0
+	line::clip=true
+	line::redraw_flag=true
+	line::points='12600 15200 2800 15200'
+	line::width=40
+	line::style='150 150'
+	line::join=miter
+	line::miter_limit=1000
+	line::arrow=none
+	line::arrow_length=72426
+	line::arrow_width=60000
+
+new line
+	line::hidden=false
+	line::R=0
+	line::G=0
+	line::B=0
+	line::clip=true
+	line::redraw_flag=true
+	line::points='3600 14800 3600 19000'
+	line::width=40
+	line::style='100 100'
+	line::join=miter
+	line::miter_limit=1000
+	line::arrow=none
+	line::arrow_length=72426
+	line::arrow_width=60000
+
+new line
+	line::hidden=false
+	line::R=128
+	line::G=128
+	line::B=128
+	line::clip=true
+	line::redraw_flag=true
+	line::points='3000 17400 11000 17400'
+	line::width=80
+	line::style=
+	line::join=miter
+	line::miter_limit=1000
+	line::arrow=both
+	line::arrow_length=72426
+	line::arrow_width=60000
+
+new line
+	line::hidden=false
+	line::R=128
+	line::G=128
+	line::B=128
+	line::clip=true
+	line::redraw_flag=true
+	line::points='3000 16600 3600 16600'
+	line::width=80
+	line::style=
+	line::join=miter
+	line::miter_limit=1000
+	line::arrow=end
+	line::arrow_length=43314
+	line::arrow_width=35000
+
+new curve
+	curve::hidden=false
+	curve::R=0
+	curve::G=0
+	curve::B=0
+	curve::clip=true
+	curve::redraw_flag=true
+	curve::points='3000 18800 6000 18600 8200 18200 9600 17400 10600 16200 12200 12400 13000 10200'
+	curve::interpolation=spline
+	curve::width=120
+	curve::style=
+	curve::join=miter
+	curve::miter_limit=1000
+
+new curve
+	curve::hidden=false
+	curve::R=128
+	curve::G=128
+	curve::B=128
+	curve::clip=true
+	curve::redraw_flag=true
+	curve::points='3000 15600 7000 12800 8000 11200 8200 10000'
+	curve::interpolation=spline
+	curve::width=80
+	curve::style=
+	curve::join=miter
+	curve::miter_limit=1000
+
+new text
+	text::hidden=false
+	text::R=0
+	text::G=0
+	text::B=0
+	text::clip=true
+	text::redraw_flag=true
+	text::text='çÏÇÈç¢ìÔÇ≥   '
+	text::x=2600
+	text::y=14000
+	text::pt=2000
+	text::font='Helvetica'
+	text::jfont='Gothic'
+	text::space=0
+	text::direction=9000
+	text::script_size=7000
+	text::raw=false
+
+new text
+	text::hidden=false
+	text::R=0
+	text::G=0
+	text::B=0
+	text::clip=true
+	text::redraw_flag=true
+	text::text='çÏÇËÇΩÇ¢Ç‡ÇÃÇÃï°éGÇ≥   '
+	text::x=6600
+	text::y=19600
+	text::pt=2000
+	text::font='Helvetica'
+	text::jfont='Gothic'
+	text::space=0
+	text::direction=0
+	text::script_size=7000
+	text::raw=false
+
+new text
+	text::hidden=false
+	text::R=0
+	text::G=0
+	text::B=0
+	text::clip=true
+	text::redraw_flag=true
+	text::text='å¿äE'
+	text::x=12800
+	text::y=15800
+	text::pt=2000
+	text::font='Helvetica'
+	text::jfont='Gothic'
+	text::space=0
+	text::direction=0
+	text::script_size=7000
+	text::raw=false
+
+new text
+	text::hidden=false
+	text::R=0
+	text::G=0
+	text::B=0
+	text::clip=true
+	text::redraw_flag=true
+	text::text='LLM'
+	text::x=10000
+	text::y=12200
+	text::pt=2000
+	text::font='Helvetica'
+	text::jfont='Gothic'
+	text::space=0
+	text::direction=0
+	text::script_size=7000
+	text::raw=false
+
+new text
+	text::hidden=false
+	text::R=0
+	text::G=0
+	text::B=0
+	text::clip=true
+	text::redraw_flag=true
+	text::text='óòóp'
+	text::x=10400
+	text::y=13000
+	text::pt=2000
+	text::font='Helvetica'
+	text::jfont='Gothic'
+	text::space=0
+	text::direction=0
+	text::script_size=7000
+	text::raw=false
+
+new text
+	text::hidden=false
+	text::R=0
+	text::G=0
+	text::B=0
+	text::clip=true
+	text::redraw_flag=true
+	text::text='çÏÇÍÇÈîÕàÕ'
+	text::x=4800
+	text::y=17200
+	text::pt=2000
+	text::font='Helvetica'
+	text::jfont='Gothic'
+	text::space=0
+	text::direction=0
+	text::script_size=7000
+	text::raw=false
+
+new text
+	text::hidden=false
+	text::R=0
+	text::G=0
+	text::B=0
+	text::clip=true
+	text::redraw_flag=true
+	text::text='Ç±ÇÍÇ‹Ç≈'
+	text::x=5400
+	text::y=11600
+	text::pt=1600
+	text::font='Helvetica'
+	text::jfont='Gothic'
+	text::space=0
+	text::direction=0
+	text::script_size=7000
+	text::raw=false
+
+new text
+	text::hidden=false
+	text::R=0
+	text::G=0
+	text::B=0
+	text::clip=true
+	text::redraw_flag=true
+	text::text='Ç≈Ç´ÇÈ'
+	text::x=12000
+	text::y=15000
+	text::pt=2000
+	text::font='Helvetica'
+	text::jfont='Gothic'
+	text::space=0
+	text::direction=0
+	text::script_size=7000
+	text::raw=false
+
+new gra name:viewer
+	gra::left_margin=0
+	gra::top_margin=0
+	gra::zoom=10000
+	gra::paper_width=21000
+	gra::paper_height=29700
+	gra::draw_obj='axisgrid axis file merge rectangle line curve arc polygon mark text'

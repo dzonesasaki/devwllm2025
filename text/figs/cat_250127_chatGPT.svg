@@ -1,0 +1,17 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- 顔の輪郭 -->
+  <circle cx="100" cy="100" r="80" stroke="black" stroke-width="3" fill="none" />
+  
+  <!-- 左目 -->
+  <circle cx="70" cy="80" r="10" fill="black" />
+  
+  <!-- 右目 -->
+  <circle cx="130" cy="80" r="10" fill="black" />
+  
+  <!-- 鼻 -->
+  <polygon points="90,100 110,100 100,115" fill="black" />
+  
+  <!-- 口 -->
+  <path d="M85,120 Q100,140 115,120" stroke="black" stroke-width="3" fill="none" />
+  <path d="M85,120 Q100,130 115,120" stroke="black" stroke-width="3" fill="none" />
+</svg>

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="240" height="240" aria-label="Simple cat face">
+  <!-- head -->
+  <circle cx="100" cy="95" r="65" fill="none" stroke="#000" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- ears (simple triangles) -->
+  <polygon points="55,45 85,25 75,70" fill="none" stroke="#000" stroke-width="4" stroke-linejoin="round"/>
+  <polygon points="145,45 115,25 125,70" fill="none" stroke="#000" stroke-width="4" stroke-linejoin="round"/>
+
+  <!-- eyes (circles) -->
+  <circle cx="75" cy="85" r="12" fill="none" stroke="#000" stroke-width="4"/>
+  <circle cx="125" cy="85" r="12" fill="none" stroke="#000" stroke-width="4"/>
+  <!-- pupils (solid) -->
+  <circle cx="75" cy="85" r="4" fill="#000"/>
+  <circle cx="125" cy="85" r="4" fill="#000"/>
+
+  <!-- nose (inverted triangle) -->
+  <polygon points="92,105 108,105 100,118" fill="none" stroke="#000" stroke-width="4" stroke-linejoin="round"/>
+
+  <!-- mouth (W shape) -->
+  <path d="M90,128 L96,118 L100,124 L104,118 L110,128" fill="none" stroke="#000" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- whiskers -->
+  <path d="M40,110 L85,110" fill="none" stroke="#000" stroke-width="3" stroke-linecap="round"/>
+  <path d="M40,122 L85,125" fill="none" stroke="#000" stroke-width="3" stroke-linecap="round"/>
+  <path d="M160,110 L115,110" fill="none" stroke="#000" stroke-width="3" stroke-linecap="round"/>
+  <path d="M160,122 L115,125" fill="none" stroke="#000" stroke-width="3" stroke-linecap="round"/>
+</svg>

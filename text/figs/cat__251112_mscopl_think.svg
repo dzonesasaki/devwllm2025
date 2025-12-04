@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+  <!-- 顔の輪郭 -->
+  <circle cx="100" cy="100" r="70" fill="none" stroke="#000" stroke-width="4"/>
+
+  <!-- 左耳 -->
+  <path d="M40 55 L70 30 L65 70 Z" fill="none" stroke="#000" stroke-width="4"/>
+
+  <!-- 右耳 -->
+  <path d="M160 55 L130 30 L135 70 Z" fill="none" stroke="#000" stroke-width="4"/>
+
+  <!-- 目（円） -->
+  <circle cx="75" cy="95" r="10" fill="#000" />
+  <circle cx="125" cy="95" r="10" fill="#000" />
+
+  <!-- 鼻（逆三角形） -->
+  <path d="M95 115 L105 115 L100 125 Z" fill="#000" stroke="#000" stroke-width="1"/>
+
+  <!-- 口（Wの形） -->
+  <path d="M80 135 L92 125 L100 135 L108 125 L120 135" fill="none" stroke="#000" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- ヒゲ（シンプルに3本ずつ） -->
+  <path d="M50 115 L85 115" stroke="#000" stroke-width="2" stroke-linecap="round"/>
+  <path d="M50 125 L85 127" stroke="#000" stroke-width="2" stroke-linecap="round"/>
+  <path d="M50 135 L85 139" stroke="#000" stroke-width="2" stroke-linecap="round"/>
+
+  <path d="M150 115 L115 115" stroke="#000" stroke-width="2" stroke-linecap="round"/>
+  <path d="M150 125 L115 127" stroke="#000" stroke-width="2" stroke-linecap="round"/>
+  <path d="M150 135 L115 139" stroke="#000" stroke-width="2" stroke-linecap="round"/>
+</svg>

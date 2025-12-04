@@ -1,0 +1,29 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" aria-labelledby="titleDesc" role="img">
+  <title id="titleDesc">シンプルな猫の顔（黒い線）</title>
+
+  <!-- 頭 -->
+  <circle cx="100" cy="100" r="60" stroke="black" stroke-width="4" fill="none"/>
+
+  <!-- 耳 -->
+  <polygon points="60,50 88,20 96,62" stroke="black" stroke-width="4" fill="none"/>
+  <polygon points="140,50 112,20 104,62" stroke="black" stroke-width="4" fill="none"/>
+
+  <!-- 目（円） -->
+  <circle cx="80" cy="94" r="8" fill="black"/>
+  <circle cx="120" cy="94" r="8" fill="black"/>
+
+  <!-- 鼻（逆三角形） -->
+  <polygon points="100,110 92,122 108,122" fill="black" stroke="black" stroke-width="1"/>
+
+  <!-- 口（W） -->
+  <polyline points="92,126 98,136 100,130 106,136 112,126" stroke="black" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- ひげ（シンプルに左右3本ずつ）-->
+  <line x1="56" y1="114" x2="86" y2="114" stroke="black" stroke-width="2" stroke-linecap="round"/>
+  <line x1="56" y1="122" x2="86" y2="122" stroke="black" stroke-width="2" stroke-linecap="round"/>
+  <line x1="56" y1="106" x2="86" y2="106" stroke="black" stroke-width="2" stroke-linecap="round"/>
+
+  <line x1="144" y1="114" x2="114" y2="114" stroke="black" stroke-width="2" stroke-linecap="round"/>
+  <line x1="144" y1="122" x2="114" y2="122" stroke="black" stroke-width="2" stroke-linecap="round"/>
+  <line x1="144" y1="106" x2="114" y2="106" stroke="black" stroke-width="2" stroke-linecap="round"/>
+</svg>

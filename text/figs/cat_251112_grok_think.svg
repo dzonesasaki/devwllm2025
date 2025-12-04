@@ -1,0 +1,22 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Face outline -->
+  <circle cx="100" cy="100" r="80" stroke="black" stroke-width="2" fill="none"/>
+  
+  <!-- Left ear -->
+  <polygon points="40,40 60,10 80,40" stroke="black" stroke-width="2" fill="none"/>
+  
+  <!-- Right ear -->
+  <polygon points="120,40 140,10 160,40" stroke="black" stroke-width="2" fill="none"/>
+  
+  <!-- Left eye -->
+  <circle cx="70" cy="80" r="10" stroke="black" stroke-width="2" fill="none"/>
+  
+  <!-- Right eye -->
+  <circle cx="130" cy="80" r="10" stroke="black" stroke-width="2" fill="none"/>
+  
+  <!-- Nose (inverted triangle, pointing down) -->
+  <polygon points="90,110 110,110 100,130" stroke="black" stroke-width="2" fill="none"/>
+  
+  <!-- Mouth (W shape) -->
+  <path d="M80,140 L90,130 L100,140 L110,130 L120,140" stroke="black" stroke-width="2" fill="none"/>
+</svg>

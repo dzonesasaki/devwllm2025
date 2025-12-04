@@ -1,0 +1,31 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- 顔の輪郭 -->
+  <circle cx="100" cy="100" r="70" fill="none" stroke="black" stroke-width="3"/>
+  
+  <!-- 左耳 -->
+  <path d="M 50 50 L 30 20 L 60 40 Z" fill="none" stroke="black" stroke-width="3"/>
+  
+  <!-- 右耳 -->
+  <path d="M 150 50 L 170 20 L 140 40 Z" fill="none" stroke="black" stroke-width="3"/>
+  
+  <!-- 左目 -->
+  <circle cx="75" cy="85" r="8" fill="black"/>
+  
+  <!-- 右目 -->
+  <circle cx="125" cy="85" r="8" fill="black"/>
+  
+  <!-- 鼻（逆三角形） -->
+  <path d="M 100 105 L 95 95 L 105 95 Z" fill="black"/>
+  
+  <!-- 口（W字形） -->
+  <path d="M 100 105 L 90 115 L 85 110 M 100 105 L 110 115 L 115 110" 
+        fill="none" stroke="black" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- ヒゲ（左） -->
+  <line x1="40" y1="100" x2="65" y2="95" stroke="black" stroke-width="1.5"/>
+  <line x1="40" y1="110" x2="65" y2="110" stroke="black" stroke-width="1.5"/>
+  
+  <!-- ヒゲ（右） -->
+  <line x1="160" y1="100" x2="135" y2="95" stroke="black" stroke-width="1.5"/>
+  <line x1="160" y1="110" x2="135" y2="110" stroke="black" stroke-width="1.5"/>
+</svg>

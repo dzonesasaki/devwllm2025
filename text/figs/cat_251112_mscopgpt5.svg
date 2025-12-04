@@ -1,0 +1,21 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Style -->
+  <g fill="none" stroke="#000" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Head outline -->
+    <circle cx="100" cy="105" r="70"/>
+
+    <!-- Ears -->
+    <path d="M50 60 L75 35 L80 70" />
+    <path d="M150 60 L125 35 L120 70" />
+
+    <!-- Eyes (circles) -->
+    <circle cx="70" cy="95" r="10" />
+    <circle cx="130" cy="95" r="10" />
+
+    <!-- Nose (inverted triangle) -->
+    <path d="M90 105 L110 105 L100 120 Z" />
+
+    <!-- Mouth (W shape) -->
+    <path d="M85 130 Q95 140 100 130 Q105 140 115 130" />
+  </g>
+</svg>
