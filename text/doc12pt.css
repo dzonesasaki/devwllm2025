@@ -1,0 +1,133 @@
+/*
+<!--
+<meta charset="utf-8" >
+<link rel="stylesheet" href="doc12pt.css" />
+-->
+<style>
+*/
+body {
+	font-family: sans-serif,"TakaoPGothic","Takao P ゴシック",-apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans",  "Meiryo";
+	word-wrap: break-word;
+	font-size: 12pt;
+	padding: 0 1.0em;
+}
+
+section.forDoc {
+  font-family: sans-serif, "TakaoPGothic","Takao P ゴシック",-apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", "Meiryo";
+
+  background-color: #ffffff;
+  color: #000000;
+  font-size: 20px;
+  padding: 30px;
+  line-height: 1;
+  justify-content: start
+}
+section.forDoc h1 {
+  font-size: 22px;
+  text-align: left;
+}
+section.forDoc h2 {
+  font-size: 18px;
+  text-align: left;
+}
+section.forDoc h3 {
+  font-size: 14px;
+  text-align: left;
+}
+
+
+section {
+  font-family: sans-serif,"TakaoPGothic","Takao P ゴシック",-apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans",  "Meiryo";
+
+  background-color: #ffffff;
+  color: #000000;
+  font-size: 12px;
+  padding: 1.4em;
+  padding-top: 0.1em;
+  padding-bottom: 0.1em;
+  margin-top: 0.1em;
+  margin-bottom: 0.1em;
+  line-height: 0.5em;
+}
+
+img[alt~="center"] {
+  display: block;
+  margin: 0 auto;
+}
+
+h1 {
+  padding-bottom: 0.3em;
+  line-height: 1.2em;
+  font-size:1.4em;
+  text-align: left;
+  text-decoration : none;
+  border-bottom: none;
+}
+
+h2 {
+  font-size: 1.3em;
+  text-align: left;
+}
+
+h5 {
+  /* text-align: center; */
+}
+
+ol {
+  font-size: 1.0em;
+}
+
+ul {
+  font-size: 1.0em;
+}
+
+/* p {
+  text-indent: 1em;
+  line-height: 1.6em;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+} */
+
+.indent {
+  text-indent: 1em;
+  line-height: 1.6em;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+.imgbright150{
+  filter: brightness(150%);
+}
+
+blockquote {
+  margin: 0;
+  margin-bottom: 1em;
+  margin-top: 0;
+  border-left: .25em solid rgb(230, 230, 230);
+  color: rgb(51, 51, 51);
+  padding: 0 1em;
+ }
+ 
+ blockquote>:first-child {
+  margin-top: 0;
+ }
+ 
+ blockquote>:last-child {
+  margin-bottom: 0;
+ }
+ 
+ code {
+   font-family:'Courier New', monospace;
+   /*
+   display: inline-block;
+   padding: 0.1em 0.25em; 
+   color: #444; 
+   background-color: #e7edf3;
+   border-radius: 3px;
+   border: solid 1px #d6dde4;
+   */
+ }
+
+/*
+<!-- /style -->
+*/
