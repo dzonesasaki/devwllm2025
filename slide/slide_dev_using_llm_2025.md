@@ -282,6 +282,9 @@ _class: titlepage
 主任研究員 佐々木 大三
 </Div>
 
+<Div style="font-size: 50%; line-height: 100%;margin-left: 0em;" > 
+slide ver.1.0.1
+</Div>
 
 ---
 <!--
@@ -313,7 +316,7 @@ _class: twoColumn
 
 # 今日の目標
 
-LLMを使うとソフトウエアの開発が簡単にできるということを学んでいただきます。
+LLMを使うとソフトウエアの開発が簡単に**作れる**ということを学んでいただきます。
 
 <div class="flex sa">
 <div>
@@ -351,9 +354,9 @@ osもマルチが望ましいですが、特にmacで動かしたいです。
 </div>
 <div>
 
-![w:300](http://localhost:8000/image_build_tools.png)
+![w:300](https://raw.githubusercontent.com/dzonesasaki/devwllm2025/refs/heads/main/text/figs/image_build_tools.png)
 
-![w:100](http://localhost:8000/img_ios_app.png)
+![w:100](https://raw.githubusercontent.com/dzonesasaki/devwllm2025/refs/heads/main/text/figs/img_ios_app.png)
 
 </div>
 </div>
@@ -368,7 +371,7 @@ osもマルチが望ましいですが、特にmacで動かしたいです。
 
 <center>
 
-![w:300](http://localhost:8000/image_require_to_context.svg)
+![w:300](https://raw.githubusercontent.com/dzonesasaki/devwllm2025/refs/heads/main/text/figs/image_require_to_context.svg)
 
 図 複雑さと困難さの概念
 
@@ -383,6 +386,25 @@ osもマルチが望ましいですが、特にmacで動かしたいです。
 - セキュリティについての説明は省略します。
 - インターネットを経由するサービス開発は、セキュリティも十分に修得してから行うようにしてください。
 
+
+---
+
+# 本研修の受講方法
+
+## メモ書き推奨
+
+- 配布資料およびスライドは詳細な説明が記載されていません
+- 必要に応じて、ぜひ配布資料にメモしてください
+
+## 質問推奨
+
+- 判らない点、深く知りたい点などをぜひ質問してください
+
+<center>
+
+![w:150](https://raw.githubusercontent.com/dzonesasaki/devwllm2025/refs/heads/main/text/figs/memo_raise_arm.svg)
+
+</center>
 
 
 ---
@@ -429,7 +451,7 @@ _class: twoColumn
 </div>
 <div>
 
-![w:300](http://localhost:8000/image_ai_vs_gai.svg)
+![w:300](https://raw.githubusercontent.com/dzonesasaki/devwllm2025/refs/heads/main/text/figs/image_ai_vs_gai.svg)
 
 こんな感じ？
 
@@ -447,10 +469,13 @@ _class: twoColumn
 - AI (Artificial Intelligence：人工知能)
 - 生成的人工知能 (Generative Artificial Intelligence)
 
-<BR><BR>
 <center>
 
-要求に対してコンテンツを生成する 
+![w:400](https://raw.githubusercontent.com/dzonesasaki/devwllm2025/refs/heads/main/text/figs/image_ai_genai_llm.svg)
+
+
+生成AIとは、要求に対して
+コンテンツを生成する 
 コンピュータ技術およびプログラム
 
 </center>
@@ -461,9 +486,11 @@ _class: twoColumn
 - **ニューラルネットワーク** (Neural Network：神経網)
 - ディープラーニング (Deep Learning)
 - トランスフォーマ (Transformer)
-- **GPT** ( Generative Pretrained Transformer：<BR>生成的事前学習済みトランスフォーマ)
+- GPT ( Generative Pretrained Transformer：<BR>生成的事前学習済みトランスフォーマ)
 
+<center>
 
+</center>
 
 ---
 # ニューラルネットワーク
@@ -501,21 +528,21 @@ $$
   - 生成AIの登場
 
 ---
-# 自然言語とLLM
+# 自然言語処理研究とLLM
 
-![bg right:30% w:200](http://localhost:8000/llm_flow_overview.svg)
+![bg right:25% w:200](https://raw.githubusercontent.com/dzonesasaki/devwllm2025/refs/heads/main/text/figs/llm_flow_overview.svg)
 
-自然言語研究：我々の使う言語
-- 翻訳、クイズ、要約など
-- ディープラーニングの応用
+- 自然言語処理研究：計算機で言葉を処理
+  - 翻訳、クイズ、要約など
+  - ディープラーニングの応用
 - google : トランスフォーマを提案
-- openAI : GPTを提案
+- openAI : GPTを提案(2018年)
 
 「人間らしい文章が出力された！」
 
 - **言葉**から**言葉**を生成するAI
 
-- LLM(**L**arge **L**anguage **M**odel )
+  - LLM(**L**arge **L**anguage **M**odel )
 「大規模言語モデル」
 
 
@@ -538,6 +565,19 @@ $$
 </center>
 
 ---
+# 自然言語の特徴
+
+-  **曖昧性:** 同じ言葉でも、文脈によって意味が変わる。
+-  **多義性:** 一つの単語が複数の意味を持つ。
+-  **省略:** 文脈から明らかな情報は、省略が可能。
+-  **柔軟性:** 新しい言葉や表現が生まれたり、既存の言葉の意味が変化したりすることがある。
+
+
+<center>
+「あいまいだけど短い」
+</center>
+
+---
 # 形式言語の特徴
 
 -  **厳密性:** 文法や構文が厳密に定義されており、曖昧さがない。
@@ -551,18 +591,6 @@ $$
 
 </center>
 
----
-# 自然言語の特徴
-
--  **曖昧性:** 同じ言葉でも、文脈によって意味が変わる。
--  **多義性:** 一つの単語が複数の意味を持つ。
--  **省略:** 文脈から明らかな情報は、省略が可能。
--  **柔軟性:** 新しい言葉や表現が生まれたり、既存の言葉の意味が変化したりすることがある。
-
-
-<center>
-「あいまいだけど短い」
-</center>
 
 ---
 <!--
@@ -588,7 +616,7 @@ _class: twoColumn
 </div>
 <div>
 
-![w:150](http://localhost:8000/high_building.svg)
+![w:150](https://raw.githubusercontent.com/dzonesasaki/devwllm2025/refs/heads/main/text/figs/high_building.svg)
 
 </div>
 </div>
@@ -625,7 +653,7 @@ _class: twoColumn
 </div>
 <div>
 
-![w:500](http://localhost:8000/robot_funnel.svg)
+![w:500](https://raw.githubusercontent.com/dzonesasaki/devwllm2025/refs/heads/main/text/figs/robot_funnel.svg)
 
 </div>
 </div>
@@ -651,6 +679,8 @@ _class: twoColumn
   - 共通の知識と理解 があるから
   - 「一般常識」
 
+<BR><BR>
+
 - 極端な常識は「偏見」
   - 「バイアス」(偏り)
 
@@ -660,7 +690,7 @@ _class: twoColumn
 </div>
 <div>
 
-![w:300](http://localhost:8000/car_left_of_center.svg)
+![w:300](https://raw.githubusercontent.com/dzonesasaki/devwllm2025/refs/heads/main/text/figs/car_left_of_center.svg)
 
 <center>
 車は左側通行
@@ -744,7 +774,7 @@ OUT:> あきたPRキャプテンだッチッチッチッチッチッチッチッ
 という現実もある。
 
 ---
-# LLMサービス
+# LLMサービス(2025年現在)
 
 
 - openAI chatGPT https://chatgpt.com/
@@ -757,17 +787,18 @@ OUT:> あきたPRキャプテンだッチッチッチッチッチッチッチッ
 - GitHub Copilot
 
 ---
-# LLMサービス比較
+# LLMサービス比較(2025年現在)
 
 <center>
 
-名前| 無登録利用 | 無課金コード生成  
+名前| 無登録利用 | 無課金コード生成量  
 |---|:---:|:---:|
 chatGPT | ○ | ○ | 
 Claude  | ×  | △ | 
 Gemini | ○  | ○ | 
 Le Chat | ○ | △ | 
 Grok  | ○  | △ | 
+MS Copilot| ○  | △ |
 
 ---
 # おすすめ利用
@@ -805,7 +836,8 @@ Twitter(X)連携重視|Grok
 -  **具体性:** 具体的な情報を含める
 -  **制約条件:** ターゲットなど、制約条件を明確
 -  **例示:** 具体的な例を示す
--  **役割:** LLMに役割を与える（例: あなたはベテランのプログラマーです。など）
+-  **役割:** LLMに役割を与える
+  （例: あなたはベテランのプログラマーです。など）
 
 
 
@@ -861,7 +893,7 @@ print(pi)
 プログラムの右上アイコン(2重の四角)
 <center>
 
-![w:500](http://localhost:8000/codecopy_gem.png)
+![w:500](https://raw.githubusercontent.com/dzonesasaki/devwllm2025/refs/heads/main/text/figs/codecopy_gem.png)
 
 図：Geminiの例
 
@@ -873,7 +905,7 @@ print(pi)
 
 <center>
 
-![w:500](http://localhost:8000/mdcopy_gemi1.png)
+![w:500](https://raw.githubusercontent.com/dzonesasaki/devwllm2025/refs/heads/main/text/figs/mdcopy_gemi1.png)
 
 図：Geminiなどの一般的な例
 
@@ -885,7 +917,7 @@ print(pi)
 
 <center>
 
-![w:400](http://localhost:8000/mdcopy_gemi2.png)
+![w:400](https://raw.githubusercontent.com/dzonesasaki/devwllm2025/refs/heads/main/text/figs/mdcopy_gemi2.png)
 
 図：Geminiで狭い画面での例
 
@@ -920,13 +952,16 @@ print(pi)
 
 # Vibeコーディング
 
-![center](http://localhost:8000/method01_vibecoding.svg)
+![center](https://raw.githubusercontent.com/dzonesasaki/devwllm2025/refs/heads/main/text/figs/method01_vibecoding.svg)
 
 ---
 # 仕様決定までの概念
 
-![center](http://localhost:8000/fig_image_desgin_talk_ittelation.svg)
+![center](https://raw.githubusercontent.com/dzonesasaki/devwllm2025/refs/heads/main/text/figs/fig_image_desgin_talk_ittelation.svg)
 
+<center>
+決まるまで会話を繰り返す
+</center>
 
 ---
 # コンセプトの整理
@@ -945,7 +980,7 @@ print(pi)
 
 生産している部品を入れ貯める箱があり、それがいっぱいになると、新しい箱に交換している。その確認を人が行っており、確認作業が全体の効率低下の原因になっているだけでなく、実績数のカウント忘れが発生する。それを回避する仕組みを作る。
 
-![center](http://localhost:8000/fig_image_factory_edgeSys_part02.svg)
+![center](https://raw.githubusercontent.com/dzonesasaki/devwllm2025/refs/heads/main/text/figs/fig_image_factory_edgeSys_part02.svg)
 
 ---
 # （例題）コンセプトの整理
@@ -961,7 +996,7 @@ print(pi)
   - どんな：作業者に知らせる仕組み
 
 ---
-# 対話を通した設計：指示文の例 1
+# 対話を通した設計：指示文の例 1/6
 
 - 生産している部品を入れ貯める箱があり、それがいっぱいになると、新しい箱を交換している。その確認を人が行っており、確認作業が全体の効率低下の原因になっているだけでなく、実績数のカウント忘れが発生する。それを回避する仕組みを作りたいです。wifiは使えます。どんなハードウエア構成を使えば良いですか？
   
@@ -969,7 +1004,7 @@ print(pi)
 
 
 ---
-# geminiの応答１
+# LLMの回答１
 
 1. 重量センサー + WiFiモジュール + クラウド連携
 2. RFIDタグ/リーダー + WiFiモジュール + クラウド連携
@@ -977,7 +1012,7 @@ print(pi)
 4. 光学センサー + WiFiモジュール + カウンター(マイコン) + クラウド連携
 
 ---
-# 対話を通した設計：指示文の例 2
+# 対話を通した設計：指示文の例 2/6
 
 - この中では、重量センサーを利用するパターンが良いです。ただ、クラウドのランニングコストは捻出できません。LANで行う方法はありますか？
 
@@ -985,7 +1020,7 @@ print(pi)
 
 
 ---
-# geminiの応答2
+# LLMの回答2
 
 1. 重量センサー + WiFiモジュール + マイコン(Webサーバー機能) + PC/サーバー
 2. 重量センサー + WiFiモジュール + Raspberry Pi (Webサーバー + データベース)
@@ -994,14 +1029,14 @@ MQTTブローカー(Raspberry Piなど) + PC/サーバー(MQTTクライアント
 
 
 ---
-# 対話を通した設計：指示文の例 3
+# 対話を通した設計：指示文の例 3/6
 
 - パソコンを新たに購入する予算がありません。Raspberry Piが最も良さそうです。 開発と運用で楽なのはどちらですか？勉強会でMQTTは知っています。
 
 > **ポイント** : 採用したい要素を挙げて、さらに他の選択肢を要求する。
 
 ---
-# geminiの応答3
+# LLMの回答3
 
 - 重量センサー + WiFiモジュール(MQTTクライアント) + Raspberry Pi (MQTTブローカー + Node-RED)
   1. Node-REDの活用:
@@ -1014,7 +1049,7 @@ MQTTブローカー(Raspberry Piなど) + PC/サーバー(MQTTクライアント
 
 
 ---
-# 対話を通した設計：指示文の例 4
+# 対話を通した設計：指示文の例 4/6
 - Raspberry Pi Pico Wを選定するのが良いと思う
 
 > **ポイント** : 採用するものを挙げる
@@ -1024,7 +1059,7 @@ MQTTブローカー(Raspberry Piなど) + PC/サーバー(MQTTクライアント
 _class: middlefont
 -->
 
-# geminiの応答4
+# LLMの回答4
 
 - システム構成をまとめます
   - **マイコン:** Raspberry Pi Pico W (MQTTクライアントとして動作)
@@ -1034,14 +1069,14 @@ _class: middlefont
   - **データ可視化・アラート:** Raspberry Pi 上の Node-RED を使用
 
 ---
-# 対話を通した設計：指示文の例 5
+# 対話を通した設計：指示文の例 5/6
 
 - 重量センサからの信号を入力するピンは何番が良いでしょうか？Raspberry Pi Pico W のコーディングはデバッガを繋いでArduino-IDEで行います。出力トークン数の制約上、**コードはこちらからお願いするまで出力しないでください**。
 
 > **ポイント** : 採用するもの挙げる。具体的にハード構成が決まりつつあるので、「コードは指示があるまで出力しない」ことを指示する。
 
 ---
-# geminiの応答 5
+# LLMの回答 5
 
 - 今回の用途では、特に制約がなければ **GP26 (ADC0)** を使用するのが一般的で、問題ないでしょう。
 
@@ -1049,7 +1084,7 @@ _class: middlefont
 <!--
 _class: middlefont
 -->
-# 対話を通した設計：指示文の例 6
+# 対話を通した設計：指示文の例 6/6
 
 - Raspberry Pi Pico Wのソフトウエア仕様について。GP26 (ADC0)から定期的に取得。このダンピングに影響されない形。重要報告は、MQTTで、定期報告し、管理は上位。定期報告が無い場合は、センサ側通信の異常。起動してWiFi接続、MQTTブローカ接続。定期的にこれらの接続が途切れたら、エラーLEDを点灯させつつ、再接続を試行し、10回接続に失敗したらアラームLEDを点灯。上位からMQTTで「箱が満杯」の通知で、箱満杯のLEDを点灯、「箱が満杯は解除」で消灯。
 
@@ -1062,7 +1097,7 @@ _class: middlefont
 - 譲れない条件を挙げる
 - 判断が付かないものは、考えるポイントを尋ねる
 - 「コードは指示があるまで出力しない」を指示
-- ハードが決まった段階で、詳細設計を要求
+- ハードが決まった段階で、まとめとして設計を要求
 - 設計がOKであれば、プログラムを要求
 - 最後に今回の仕様の説明を求める。（メンテナンス時に役立ちます）
 
@@ -1075,7 +1110,7 @@ class: normalMiddle
 ## 自分の考え通りのものを作る
 # 設計済み伴走開発手法
 
-![center](http://localhost:8000/method02_designed.svg)
+![center](https://raw.githubusercontent.com/dzonesasaki/devwllm2025/refs/heads/main/text/figs/method02_designed.svg)
 
 <Div Align="right">  
 と呼ぶことにします
@@ -1084,7 +1119,7 @@ class: normalMiddle
 ---
 # LLMの理解から仕様決定までの概念図<!--fit-->
 
-![center](http://localhost:8000/fig_image_desgin_negotiation.svg)
+![center](https://raw.githubusercontent.com/dzonesasaki/devwllm2025/refs/heads/main/text/figs/fig_image_desgin_negotiation.svg)
 
 
 
@@ -1103,7 +1138,7 @@ class: normalMiddle
 - 例外処理の内容
 
 ---
-# イメージ図
+# イメージ図の作成手順
 
 
 1. 主人公を描く
@@ -1132,23 +1167,23 @@ class: normalMiddle
 --- 
 # イメージ図の作成 #1/4
 主人公とその周囲を描く
-![center w:350](http://localhost:8000/fig_image_factory_edgeSys_part02.svg)
+![center w:350](https://raw.githubusercontent.com/dzonesasaki/devwllm2025/refs/heads/main/text/figs/fig_image_factory_edgeSys_part02.svg)
 主人公に最も恩恵のある部分を描く
-![center w:400](http://localhost:8000/fig_image_factory_edgeSys_part03.svg)
+![center w:400](https://raw.githubusercontent.com/dzonesasaki/devwllm2025/refs/heads/main/text/figs/fig_image_factory_edgeSys_part03.svg)
 
 --- 
 # イメージ図の作成 #2/4
 そのシステムで重要な部品を描く
-![center w:500](http://localhost:8000/fig_image_factory_edgeSys_part04.svg)
+![center w:500](https://raw.githubusercontent.com/dzonesasaki/devwllm2025/refs/heads/main/text/figs/fig_image_factory_edgeSys_part04.svg)
 
 --- 
 # イメージ図の作成 #3/4
 部品と部品の間にある重要な点を描く
-![center w:500](http://localhost:8000/fig_image_factory_edgeSys_part05.svg)
+![center w:500](https://raw.githubusercontent.com/dzonesasaki/devwllm2025/refs/heads/main/text/figs/fig_image_factory_edgeSys_part05.svg)
 
 --- 
 # イメージ図の作成 #4/4
-![center w:600](http://localhost:8000/fig_image_factory_edgeSys.svg)
+![center w:600](https://raw.githubusercontent.com/dzonesasaki/devwllm2025/refs/heads/main/text/figs/fig_image_factory_edgeSys.svg)
 
 --- 
 <!--
@@ -1274,7 +1309,8 @@ _class: middlefont
 - 不明瞭な点を見逃さない力
 - 空気(vibe)を読む力
 
-そして多くは、複雑なシステムでは、1度の質問では終わらず、回答に対する質問があることが多いです。この作業は、**お互いの理解**を確かめる上で重要となります。
+そして多くは、複雑なシステムでは、1度の質問では終わらず、回答に対する質問があることが多いです。
+この作業は、**お互いの理解**を確かめる上で重要となります。
 
 
 
@@ -1287,7 +1323,7 @@ class: normalMiddle
 
 # 仕様評価伴走開発手法
 
-![center](http://localhost:8000/method03_spec_dev.svg)
+![center](https://raw.githubusercontent.com/dzonesasaki/devwllm2025/refs/heads/main/text/figs/method03_spec_dev.svg)
 
 <Div Align="right">  
 と呼ぶことにします
@@ -1296,13 +1332,17 @@ class: normalMiddle
 ---
 # 仕様評価伴走開発手法 について
 
-- vibeコーディング と、設計済み伴走開発手法 の中間ぐらいの方法
+- vibeコーディング と、設計済み伴走開発手法 の
+  **中間**ぐらいの方法
 - おおまかな仕様は作成済みという時に使う方法
 
 <BR>
 
-![w:200](http://localhost:8000/method01_vibecoding.svg) &ensp; ![w:400](http://localhost:8000/method03_spec_dev.svg) &ensp; ![w:200](http://localhost:8000/method02_designed.svg)
+<center>
 
+![w:150](https://raw.githubusercontent.com/dzonesasaki/devwllm2025/refs/heads/main/text/figs/method01_vibecoding.svg) &ensp; ![w:400](https://raw.githubusercontent.com/dzonesasaki/devwllm2025/refs/heads/main/text/figs/method03_spec_dev.svg) &ensp; ![w:150](https://raw.githubusercontent.com/dzonesasaki/devwllm2025/refs/heads/main/text/figs/method02_designed.svg)
+
+</center>
 
 
 ---
@@ -1319,18 +1359,23 @@ class: normalMiddle
 
 
 ---
-# 仕様評価伴走開発手法に必要な内容<!--fit-->
+# 仕様評価伴走開発手法での指示
+<!--fit-->
+
+```
+あなたは、多くの知識を持つ優秀な技術コンサルタントです。
+＊＊をするシステムを作りたいです。
+```
 
 - 目的、要求、5W1H
 - **具体的な例**（完成後のイメージ）
+- 制約条件（費用、開発期間など）
 
 ```
-＊＊をするシステムを作りたいです。
-仕様について案もありますが、あなたがレビューをして、
-あなたと私が納得のいく仕様に仕上げてから、
+この案を、あなたがレビューをして、あなたと私が納得のいく仕様に仕上げてから、
 設計を行ってから、作りたいです。
-仕様は、前提が否定されても良いので、費用を押さえつつ、
-開発時間も長くない形にするために、一緒に開発してきましょう。
+仕様は、前提が否定されても良いので、制約条件を満たすように、
+一緒に開発してきましょう。
 ```
 
 
@@ -1397,6 +1442,13 @@ _class: smallfont
 この案を、あなたがレビューをして、あなたと私が納得のいく仕様に仕上げてから、設計を行ってから、作りたいです。
 仕様は、前提が否定されても良いので、費用を押さえつつ、開発時間も長くない形にするために、一緒に開発してきましょう。
 
+<BR>
+<Div style="font-size: 150%; line-height: 100%;margin-left: 0em;" > 
+
+これ以降はvibeコーディングの途中( LLMの回答4 など)と同じ流れ
+
+</Div>
+
 
 ---
 
@@ -1424,15 +1476,16 @@ _class: smallfont
 
 **LLMを利用したメンテナンス**
 
-
-- 会話の履歴を利用する方法
-- コードを提供して新規に生成させる方法
+- 履歴利用手法
+  (会話の履歴を利用する方法)
+- プログラム提供手法
+  (プログラムを提供して新規に生成させる方法)
 
 
 
 
 ---
-# 開発後の管理：履歴の利用
+# 開発後の管理：履歴利用手法
 
 指示文例：
 
@@ -1445,27 +1498,40 @@ _class: smallfont
   - アラーム時は、各センサでのカウント数の右脇に表示してください
  -->
 
----
-# 開発後の管理：プログラム提供
+<BR>
 
-- LLMとの会話を新規に開始
-- プログラムをLLMに提供
-- 変更点を指示
-
+(これ以降は、vibeコーディングの途中( LLMの回答4 など)と同じく、質問があり、最後にプログラム出力)
 
 ---
-# 開発後の管理：プログラム提供の注意点 <!--fit-->
+<!--
+_class: twoColumn
+-->
 
-- プログラム中のIDやパスワードは書き換える
-- プライバシー情報は削除してから提供
-- 企業としてサービスを契約
-- **日本の法律**で守られた状態で利用
+# 開発後の管理：プログラム提供手法
 
----
-# 開発後の管理：プログラム提供のポイント <!--fit-->
+<div class="flex sa">
+<div>
 
-- プログラムの背景がわかる資料を添付
-- 複数のプログラムは１つずつ提供
+1. LLMとの会話を新規に開始
+2. 更新作業が必要なことを伝える
+3. 現状の背景を提供
+   仕様書や設計書を添付
+4. 変更点を指示
+   変更点がわかる文章を記載(or添付)
+5. プログラムをLLMに提供
+   複数のプログラムは１つずつ提供
+
+</div>
+<div>
+
+</div>
+<div>
+
+![w:300](https://raw.githubusercontent.com/dzonesasaki/devwllm2025/refs/heads/main/text/figs/llm_service_window.svg)
+
+</div>
+</div>
+
 
 
 ---
@@ -1479,28 +1545,61 @@ _class: smallfont
 ---
 # 開発後の管理：プログラム提供例 # 2/2 <!--fit-->
 
-指示文例つづき：
+→ わかりました。入力してください。
 
-- まずは、現在の仕様について次に記載します。
+`まずは、現在の仕様について次に記載します。`
 
-- 変更する項目と内容について次に記載します。
+<Div style="font-size: 70%; line-height: 100%;margin-left: 0em;" > 
+→ 内容確認しました。次をお願いします。
+</Div>
 
-- 現在のソースコード、Node-REDのフローを記載します。
+`変更する項目と内容について次に記載します。`
 
-- 現在のソースコード、Raspberry PI PICOのコードを記載します。
+<Div style="font-size: 50%; line-height: 100%;margin-left: 0em;" > 
+→ 内容確認しました。次をお願いします。
+</Div>
 
-- 現状についての入力は以上です。どうぞ質問してください。
+`現在のソースコード、Node-REDのフローを記載します。`
+
+<Div style="font-size: 50%; line-height: 100%;margin-left: 0em;" > 
+→ 内容確認しました。次をお願いします。
+</Div>
+
+`現在のソースコード、Raspberry PI PICOのコードを記載します。`
+
+<Div style="font-size: 50%; line-height: 100%;margin-left: 0em;" > 
+→ 内容確認しました。次をお願いします。
+</Div>
+
+`現状についての入力は以上です。どうぞ質問してください。`
+
+
+(これ以降は、vibeコーディングの途中( LLMの回答4 など)と同じく、質問があり、最後にプログラム出力)
+
 
 ---
-# メンテナンス後の重要な点
+# プログラム提供の注意点
 
-後のメンテナンスに備える
+ <!--fit-->
+
+- プログラム中のIDやパスワードは書き換える
+- プライバシー情報は削除してから提供
+- 企業としてサービスを契約
+- **日本の法律**で守られた状態で利用
+
+
+---
+# メンテナンス後にしておくこと
+
+将来のメンテナンスに備えましょう
 
 - 仕様書の出力
 - 設計書の出力
 - プログラムの出力
 - 作業記録
-- それらを一つのフォルダに入れ、忘れない場所に保存する
+- 一つのフォルダにまとめる
+- 忘れない場所に保管する
+  (共有フォルダに入れておく、SDメモリに入れて黒板に貼っておく、等)
 
 
 ---
@@ -1515,8 +1614,10 @@ _class: smallfont
 - 今日はテストし、明日から稼働開始
 ```
 
-短くて良いので、5W1Hを意識する。
-判らなければLLMに、記述をまとめてもらう。
+短くて良いので、5W1Hを意識しましょう。
+判らなければLLMに、記述をまとめてもらいましょう。
+
+
 
 ---
 # LLM利用でも越えられない限界
@@ -1562,7 +1663,7 @@ LLMで自身の能力が向上
 <div>
 <center>
 
-![w:300](http://localhost:8000/image_require_to_context.svg)
+![w:300](https://raw.githubusercontent.com/dzonesasaki/devwllm2025/refs/heads/main/text/figs/image_require_to_context.svg)
 
 図 複雑さと困難さの概念
 </center>
@@ -1571,7 +1672,7 @@ LLMで自身の能力が向上
 </div>
 
 
-## LLMは、勉強においても**優秀な家庭教師**
+## LLMは、**優秀な家庭教師**でもある
 
 - 判らない点は即座にLLMに質問
 - 勉強の仕方もLLMに質問
@@ -1584,7 +1685,7 @@ LLMで自身の能力が向上
 ## 意図を伝える「解像度」
 - 「何を作りたいか」 目標を設定するのは人間
 
-## 観察と問題意識
+## 「観察」と問題意識
 - 「職場に問題はないか？」 「もっと楽にできないか？」
 
 ## LLMを「ハッキング」する探求心
