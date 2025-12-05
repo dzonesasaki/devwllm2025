@@ -354,9 +354,9 @@ osもマルチが望ましいですが、特にmacで動かしたいです。
 </div>
 <div>
 
-![w:300](https://raw.githubusercontent.com/dzonesasaki/devwllm2025/refs/heads/main/text/figs/image_build_tools.png)
+![w:300](http://localhost:8000/image_build_tools.png)
 
-![w:100](https://raw.githubusercontent.com/dzonesasaki/devwllm2025/refs/heads/main/text/figs/img_ios_app.png)
+![w:100](http://localhost:8000/img_ios_app.png)
 
 </div>
 </div>
@@ -371,7 +371,7 @@ osもマルチが望ましいですが、特にmacで動かしたいです。
 
 <center>
 
-![w:300](https://raw.githubusercontent.com/dzonesasaki/devwllm2025/refs/heads/main/text/figs/image_require_to_context.svg)
+![w:300](http://localhost:8000/image_require_to_context.svg)
 
 図 複雑さと困難さの概念
 
@@ -402,7 +402,7 @@ osもマルチが望ましいですが、特にmacで動かしたいです。
 
 <center>
 
-![w:150](https://raw.githubusercontent.com/dzonesasaki/devwllm2025/refs/heads/main/text/figs/memo_raise_arm.svg)
+![w:150](http://localhost:8000/memo_raise_arm.svg)
 
 </center>
 
@@ -451,7 +451,7 @@ _class: twoColumn
 </div>
 <div>
 
-![w:300](https://raw.githubusercontent.com/dzonesasaki/devwllm2025/refs/heads/main/text/figs/image_ai_vs_gai.svg)
+![w:300](http://localhost:8000/image_ai_vs_gai.svg)
 
 こんな感じ？
 
@@ -471,7 +471,7 @@ _class: twoColumn
 
 <center>
 
-![w:400](https://raw.githubusercontent.com/dzonesasaki/devwllm2025/refs/heads/main/text/figs/image_ai_genai_llm.svg)
+![w:400](http://localhost:8000/image_ai_genai_llm.svg)
 
 
 生成AIとは、要求に対して
@@ -530,7 +530,7 @@ $$
 ---
 # 自然言語処理研究とLLM
 
-![bg right:25% w:200](https://raw.githubusercontent.com/dzonesasaki/devwllm2025/refs/heads/main/text/figs/llm_flow_overview.svg)
+![bg right:25% w:200](http://localhost:8000/llm_flow_overview.svg)
 
 - 自然言語処理研究：計算機で言葉を処理
   - 翻訳、クイズ、要約など
@@ -616,7 +616,7 @@ _class: twoColumn
 </div>
 <div>
 
-![w:150](https://raw.githubusercontent.com/dzonesasaki/devwllm2025/refs/heads/main/text/figs/high_building.svg)
+![w:150](http://localhost:8000/high_building.svg)
 
 </div>
 </div>
@@ -653,7 +653,7 @@ _class: twoColumn
 </div>
 <div>
 
-![w:500](https://raw.githubusercontent.com/dzonesasaki/devwllm2025/refs/heads/main/text/figs/robot_funnel.svg)
+![w:500](http://localhost:8000/robot_funnel.svg)
 
 </div>
 </div>
@@ -690,7 +690,7 @@ _class: twoColumn
 </div>
 <div>
 
-![w:300](https://raw.githubusercontent.com/dzonesasaki/devwllm2025/refs/heads/main/text/figs/car_left_of_center.svg)
+![w:300](http://localhost:8000/car_left_of_center.svg)
 
 <center>
 車は左側通行
@@ -893,7 +893,7 @@ print(pi)
 プログラムの右上アイコン(2重の四角)
 <center>
 
-![w:500](https://raw.githubusercontent.com/dzonesasaki/devwllm2025/refs/heads/main/text/figs/codecopy_gem.png)
+![w:500](http://localhost:8000/codecopy_gem.png)
 
 図：Geminiの例
 
@@ -905,7 +905,7 @@ print(pi)
 
 <center>
 
-![w:500](https://raw.githubusercontent.com/dzonesasaki/devwllm2025/refs/heads/main/text/figs/mdcopy_gemi1.png)
+![w:500](http://localhost:8000/mdcopy_gemi1.png)
 
 図：Geminiなどの一般的な例
 
@@ -917,7 +917,7 @@ print(pi)
 
 <center>
 
-![w:400](https://raw.githubusercontent.com/dzonesasaki/devwllm2025/refs/heads/main/text/figs/mdcopy_gemi2.png)
+![w:400](http://localhost:8000/mdcopy_gemi2.png)
 
 図：Geminiで狭い画面での例
 
@@ -952,12 +952,12 @@ print(pi)
 
 # Vibeコーディング
 
-![center](https://raw.githubusercontent.com/dzonesasaki/devwllm2025/refs/heads/main/text/figs/method01_vibecoding.svg)
+![center](http://localhost:8000/method01_vibecoding.svg)
 
 ---
 # 仕様決定までの概念
 
-![center](https://raw.githubusercontent.com/dzonesasaki/devwllm2025/refs/heads/main/text/figs/fig_image_desgin_talk_ittelation.svg)
+![center](http://localhost:8000/fig_image_desgin_talk_ittelation.svg)
 
 <center>
 決まるまで会話を繰り返す
@@ -980,7 +980,7 @@ print(pi)
 
 生産している部品を入れ貯める箱があり、それがいっぱいになると、新しい箱に交換している。その確認を人が行っており、確認作業が全体の効率低下の原因になっているだけでなく、実績数のカウント忘れが発生する。それを回避する仕組みを作る。
 
-![center](https://raw.githubusercontent.com/dzonesasaki/devwllm2025/refs/heads/main/text/figs/fig_image_factory_edgeSys_part02.svg)
+![center](http://localhost:8000/fig_image_factory_edgeSys_part02.svg)
 
 ---
 # （例題）コンセプトの整理
@@ -1110,7 +1110,7 @@ class: normalMiddle
 ## 自分の考え通りのものを作る
 # 設計済み伴走開発手法
 
-![center](https://raw.githubusercontent.com/dzonesasaki/devwllm2025/refs/heads/main/text/figs/method02_designed.svg)
+![center](http://localhost:8000/method02_designed.svg)
 
 <Div Align="right">  
 と呼ぶことにします
@@ -1119,7 +1119,7 @@ class: normalMiddle
 ---
 # LLMの理解から仕様決定までの概念図<!--fit-->
 
-![center](https://raw.githubusercontent.com/dzonesasaki/devwllm2025/refs/heads/main/text/figs/fig_image_desgin_negotiation.svg)
+![center](http://localhost:8000/fig_image_desgin_negotiation.svg)
 
 
 
@@ -1167,23 +1167,23 @@ class: normalMiddle
 --- 
 # イメージ図の作成 #1/4
 主人公とその周囲を描く
-![center w:350](https://raw.githubusercontent.com/dzonesasaki/devwllm2025/refs/heads/main/text/figs/fig_image_factory_edgeSys_part02.svg)
+![center w:350](http://localhost:8000/fig_image_factory_edgeSys_part02.svg)
 主人公に最も恩恵のある部分を描く
-![center w:400](https://raw.githubusercontent.com/dzonesasaki/devwllm2025/refs/heads/main/text/figs/fig_image_factory_edgeSys_part03.svg)
+![center w:400](http://localhost:8000/fig_image_factory_edgeSys_part03.svg)
 
 --- 
 # イメージ図の作成 #2/4
 そのシステムで重要な部品を描く
-![center w:500](https://raw.githubusercontent.com/dzonesasaki/devwllm2025/refs/heads/main/text/figs/fig_image_factory_edgeSys_part04.svg)
+![center w:500](http://localhost:8000/fig_image_factory_edgeSys_part04.svg)
 
 --- 
 # イメージ図の作成 #3/4
 部品と部品の間にある重要な点を描く
-![center w:500](https://raw.githubusercontent.com/dzonesasaki/devwllm2025/refs/heads/main/text/figs/fig_image_factory_edgeSys_part05.svg)
+![center w:500](http://localhost:8000/fig_image_factory_edgeSys_part05.svg)
 
 --- 
 # イメージ図の作成 #4/4
-![center w:600](https://raw.githubusercontent.com/dzonesasaki/devwllm2025/refs/heads/main/text/figs/fig_image_factory_edgeSys.svg)
+![center w:600](http://localhost:8000/fig_image_factory_edgeSys.svg)
 
 --- 
 <!--
@@ -1323,7 +1323,7 @@ class: normalMiddle
 
 # 仕様評価伴走開発手法
 
-![center](https://raw.githubusercontent.com/dzonesasaki/devwllm2025/refs/heads/main/text/figs/method03_spec_dev.svg)
+![center](http://localhost:8000/method03_spec_dev.svg)
 
 <Div Align="right">  
 と呼ぶことにします
@@ -1340,7 +1340,7 @@ class: normalMiddle
 
 <center>
 
-![w:150](https://raw.githubusercontent.com/dzonesasaki/devwllm2025/refs/heads/main/text/figs/method01_vibecoding.svg) &ensp; ![w:400](https://raw.githubusercontent.com/dzonesasaki/devwllm2025/refs/heads/main/text/figs/method03_spec_dev.svg) &ensp; ![w:150](https://raw.githubusercontent.com/dzonesasaki/devwllm2025/refs/heads/main/text/figs/method02_designed.svg)
+![w:150](http://localhost:8000/method01_vibecoding.svg) &ensp; ![w:400](http://localhost:8000/method03_spec_dev.svg) &ensp; ![w:150](http://localhost:8000/method02_designed.svg)
 
 </center>
 
@@ -1527,7 +1527,7 @@ _class: twoColumn
 </div>
 <div>
 
-![w:300](https://raw.githubusercontent.com/dzonesasaki/devwllm2025/refs/heads/main/text/figs/llm_service_window.svg)
+![w:300](http://localhost:8000/llm_service_window.svg)
 
 </div>
 </div>
@@ -1663,7 +1663,7 @@ LLMで自身の能力が向上
 <div>
 <center>
 
-![w:300](https://raw.githubusercontent.com/dzonesasaki/devwllm2025/refs/heads/main/text/figs/image_require_to_context.svg)
+![w:300](http://localhost:8000/image_require_to_context.svg)
 
 図 複雑さと困難さの概念
 </center>
