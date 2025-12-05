@@ -8,7 +8,7 @@ new line
 	line::B=0
 	line::clip=true
 	line::redraw_flag=true
-	line::points='5000 7600 4400 7600 4400 8400 5200 8400 5200 8000'
+	line::points='12800 8200 12200 8200 12200 9000 13000 9000 13000 8600'
 	line::width=120
 	line::style=
 	line::join=miter
@@ -24,7 +24,7 @@ new line
 	line::B=0
 	line::clip=true
 	line::redraw_flag=true
-	line::points='13600 8200 14400 9000'
+	line::points='13800 12600 14600 13400'
 	line::width=40
 	line::style=
 	line::join=miter
@@ -40,7 +40,7 @@ new line
 	line::B=0
 	line::clip=true
 	line::redraw_flag=true
-	line::points='12600 9200 14000 9200'
+	line::points='12800 13600 14200 13600'
 	line::width=40
 	line::style=
 	line::join=miter
@@ -56,7 +56,7 @@ new line
 	line::B=0
 	line::clip=true
 	line::redraw_flag=true
-	line::points='12600 9800 14000 9800'
+	line::points='12800 14200 14200 14200'
 	line::width=40
 	line::style=
 	line::join=miter
@@ -72,7 +72,7 @@ new line
 	line::B=0
 	line::clip=true
 	line::redraw_flag=true
-	line::points='12600 10400 14000 10400'
+	line::points='12800 14800 14200 14800'
 	line::width=40
 	line::style=
 	line::join=miter
@@ -88,7 +88,7 @@ new line
 	line::B=0
 	line::clip=true
 	line::redraw_flag=true
-	line::points='4800 7200 4800 6600'
+	line::points='12600 7800 12600 7200'
 	line::width=40
 	line::style=
 	line::join=miter
@@ -104,7 +104,7 @@ new line
 	line::B=0
 	line::clip=true
 	line::redraw_flag=true
-	line::points='5200 7200 5600 6800'
+	line::points='13000 7800 13400 7400'
 	line::width=40
 	line::style=
 	line::join=miter
@@ -120,7 +120,7 @@ new line
 	line::B=0
 	line::clip=true
 	line::redraw_flag=true
-	line::points='4200 7200 3800 6800'
+	line::points='12000 7800 11600 7400'
 	line::width=40
 	line::style=
 	line::join=miter
@@ -136,7 +136,7 @@ new line
 	line::B=0
 	line::clip=true
 	line::redraw_flag=true
-	line::points='4400 8600 4000 9200'
+	line::points='12200 9200 11800 9800'
 	line::width=40
 	line::style=
 	line::join=miter
@@ -152,7 +152,7 @@ new line
 	line::B=0
 	line::clip=true
 	line::redraw_flag=true
-	line::points='4800 8600 4800 9400'
+	line::points='12600 9200 12600 10000'
 	line::width=40
 	line::style=
 	line::join=miter
@@ -168,7 +168,7 @@ new line
 	line::B=0
 	line::clip=true
 	line::redraw_flag=true
-	line::points='5400 8600 5600 9200'
+	line::points='13200 9200 13400 9800'
 	line::width=40
 	line::style=
 	line::join=miter
@@ -184,7 +184,7 @@ new line
 	line::B=0
 	line::clip=true
 	line::redraw_flag=true
-	line::points='5600 13800 6000 13400 6400 14200 7000 13400 7600 14200 8200 13400'
+	line::points='5600 11200 6000 10800 6400 11600 7000 10800 7600 11600 8200 10800'
 	line::width=40
 	line::style=
 	line::join=miter
@@ -200,7 +200,7 @@ new line
 	line::B=0
 	line::clip=true
 	line::redraw_flag=true
-	line::points='15400 13600 15400 14000 15000 14000'
+	line::points='15400 11000 15400 11400 15000 11400'
 	line::width=40
 	line::style=
 	line::join=miter
@@ -216,7 +216,7 @@ new line
 	line::B=0
 	line::clip=true
 	line::redraw_flag=true
-	line::points='8600 10600 8600 11400 9400 10800'
+	line::points='8800 14600 8800 15400 9600 14800'
 	line::width=40
 	line::style=
 	line::join=miter
@@ -232,7 +232,7 @@ new curve
 	curve::B=0
 	curve::clip=true
 	curve::redraw_flag=true
-	curve::points='11400 9600 9600 10000 8600 11200'
+	curve::points='11800 13600 10000 14000 9000 15200'
 	curve::interpolation=spline
 	curve::width=40
 	curve::style=
@@ -246,7 +246,7 @@ new polygon
 	polygon::B=0
 	polygon::clip=true
 	polygon::redraw_flag=true
-	polygon::points='5200 13000 4600 13400 4600 14200 5200 14600 15600 14600 16200 14200 16200 13400 15600 13000'
+	polygon::points='5200 10400 4600 10800 4600 11600 5200 12000 15600 12000 16200 11600 16200 10800 15600 10400'
 	polygon::fill=empty
 	polygon::width=40
 	polygon::style=
@@ -260,7 +260,7 @@ new polygon
 	polygon::B=0
 	polygon::clip=true
 	polygon::redraw_flag=true
-	polygon::points='5200 7400 4600 8000 4600 8200 4800 8200 5400 7600'
+	polygon::points='13000 8000 12400 8600 12400 8800 12600 8800 13200 8200'
 	polygon::fill=empty
 	polygon::width=120
 	polygon::style=
@@ -274,7 +274,7 @@ new polygon
 	polygon::B=0
 	polygon::clip=true
 	polygon::redraw_flag=true
-	polygon::points='13600 8200 12200 8200 12200 11000 14400 11000 14400 9000 13600 9000'
+	polygon::points='13800 12600 12400 12600 12400 15400 14600 15400 14600 13400 13800 13400'
 	polygon::fill=empty
 	polygon::width=40
 	polygon::style=
@@ -289,8 +289,8 @@ new text
 	text::clip=true
 	text::redraw_flag=true
 	text::text='1. New Chat'
-	text::x=6200
-	text::y=7800
+	text::x=4600
+	text::y=8200
 	text::pt=2000
 	text::font='Helvetica'
 	text::jfont='Gothic'
@@ -306,9 +306,9 @@ new text
 	text::B=0
 	text::clip=true
 	text::redraw_flag=true
-	text::text='2. Source File'
-	text::x=11400
-	text::y=7800
+	text::text='3., 4., 5.  File Attach'
+	text::x=4800
+	text::y=13200
 	text::pt=2000
 	text::font='Helvetica'
 	text::jfont='Gothic'
@@ -324,9 +324,9 @@ new text
 	text::B=0
 	text::clip=true
 	text::redraw_flag=true
-	text::text='3. Update items'
-	text::x=11200
-	text::y=12800
+	text::text='2. comment'
+	text::x=4800
+	text::y=10200
 	text::pt=2000
 	text::font='Helvetica'
 	text::jfont='Gothic'
